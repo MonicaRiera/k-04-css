@@ -1,0 +1,19 @@
+/* 40301. Replace the value red with its corresponding hex value*/
+div {
+  border-color: #ff0000;
+}
+
+/* 40302. Replace the value rgb(0,255,0) with its corresponding hex value*/
+div {
+  border-color: #00ff00;
+}
+
+/*40303. Add 50% transparency to the value of the border-color property*/
+div {
+  border-color: rgb(0,0,0,0.5);
+}
+
+/*40304. Replace the value LightSalmon with its corresponding hex value (use online resources to find the match)*/
+div {
+  border-color: #ffa07a
+}
