@@ -1,0 +1,16 @@
+.wrap {
+	display: grid;
+	grid-template-columns: 1fr 6fr 3fr;
+}
+
+.sidebar {
+	background: orange;
+}
+
+.content {
+	background: red;
+}
+
+.ads {
+	background: purple;
+}

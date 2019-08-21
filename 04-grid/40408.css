@@ -1,0 +1,26 @@
+html, body {
+	margin: 0;
+}
+
+.wrap {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	height: 100vh;
+}
+
+.side-bar {
+	background: #ed6d52;
+}
+
+.products {
+	background: #333333;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	padding: 10px;
+}
+
+.prod {
+	background: #ffffff;
+	margin: 10px;
+}

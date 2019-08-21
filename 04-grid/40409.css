@@ -1,0 +1,41 @@
+html, body {
+	margin: 0;
+}
+
+.toolbar {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 6fr;
+	background: #3f825e
+}
+
+.toolbar-item {
+	background: #f7f4de;
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 2em;
+}
+
+.wrap {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	height: 100vh;
+}
+
+.side-bar {
+	background: #ed6d52;
+}
+
+.products {
+	background: #333333;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	padding: 10px;
+}
+
+.prod {
+	background: #ffffff;
+	margin: 10px;
+}

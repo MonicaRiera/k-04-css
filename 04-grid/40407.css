@@ -1,0 +1,17 @@
+html, body {
+	margin: 0;
+}
+
+.wrap {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	height: 100vh;
+}
+
+.side-bar {
+	background: #ed6d52;
+}
+
+.main {
+	background: #333333;
+}
