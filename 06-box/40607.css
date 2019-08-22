@@ -1,0 +1,25 @@
+.parent {
+	height: 700px;
+	width: 700px;
+	border-radius: 15px;
+	background: #ed6d52;
+	position: relative;
+}
+
+.child {
+	background: white;
+	height: 500px;
+	width: 200px;
+	border-radius: 15px;
+	position: absolute;
+}
+
+.child.left {
+	top: calc(50% - 250px);
+	left: 100px;
+}
+
+.child.right {
+	top: calc(50% - 250px);
+	right: 100px;
+}

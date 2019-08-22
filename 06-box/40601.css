@@ -1,0 +1,7 @@
+div {
+	width: 20vw;
+	height: 20vh;
+	border-width: thin;
+	border-color: red blue;
+	border-style: solid;
+}
