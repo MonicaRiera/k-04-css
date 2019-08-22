@@ -1,0 +1,23 @@
+div {
+	display: inline-block;
+	margin: 20px;
+	background: url("./images/forest.jpg") center;
+	background-size: cover;
+
+}
+
+.square {
+	height: 300px;
+	width: 300px;
+}
+
+.portrait {
+	height: 400px;
+	width: 100px;
+
+}
+
+.landscape {
+	height: 100px;
+	width: 400px;
+}
