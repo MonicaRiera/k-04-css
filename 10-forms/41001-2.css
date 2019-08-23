@@ -54,6 +54,10 @@ input {
 	margin-bottom: 30px;
 }
 
+input:focus {
+	border-color: #00988f;
+}
+
 button {
 	background: #00988f;
 	color: white;
