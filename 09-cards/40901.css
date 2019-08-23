@@ -1,0 +1,52 @@
+html, body {
+	font-family: 'Lato', sans-serif;
+	color: Grey;
+}
+
+.container {
+	width: 300px;
+	border-radius: 6px;
+	margin: 30px;
+	display: inline-block;
+	border-color: DarkGrey;
+	border-width: thin;
+	border-style: solid;
+
+}
+
+.container:hover {
+	box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+
+.image {
+	background-image: url('https://q-ak.bstatic.com/images/hotel/max1024x768/186/186223203.jpg');
+	background-position: center;
+	background-size: 100% auto;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	height: 150px;
+	background-repeat: no-repeat;
+}
+
+.content {
+	padding: 30px;
+	margin: 0px;
+}
+
+span {
+	color: #666666;
+}
+
+h3 {
+	color: Black;
+}
+
+h5 {
+	margin: 0px;
+}
+
+p {
+	font-size: 1em;
+	margin-bottom: 0px;
+}
