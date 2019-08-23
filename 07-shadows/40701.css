@@ -1,0 +1,15 @@
+div {
+	display: inline-block;
+	margin: 20px;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+	height: 200px;
+	width: 200px;
+}
+
+.round {
+	border-radius: 15px;
+}
+
+.circle {
+	border-radius: 50%;
+}
