@@ -1,0 +1,67 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: Lato, sans-serif;
+	color: #4f4f4f;
+}
+
+.layout {
+	height: 100vh;
+	background-image: url('https://images.unsplash.com/photo-1545547465-438cf38e0437?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: grid;
+	grid-template-columns: 400px;
+	justify-content: center;
+	align-content: center;
+}
+
+.card {
+	border-radius: 6px;
+	background: white;
+
+}
+
+.content {
+	padding: 20px;
+	margin: 0;
+}
+
+.logo {
+	background-image: url('https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c513.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 30px 30px 10px 30px;
+	padding: 30px 30px 10px 30px;
+	box-sizing: content-box;
+}
+
+label {
+	display: block;
+	margin-bottom: 6px;
+	color: #8a8a8a;
+}
+
+input {
+	width: 100%;
+	height: 50px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	border: 1px solid #e2e2e2;
+	margin-bottom: 30px;
+}
+
+button {
+	background: #00988f;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 6px;
+	border: none;
+}
+
+a {
+	color: #00988f;
+}
