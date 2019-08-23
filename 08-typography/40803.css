@@ -1,0 +1,16 @@
+html, body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+}
+
+small {
+	color: #666666;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+	color: orange;
+}
