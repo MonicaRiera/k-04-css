@@ -1,0 +1,44 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+.nav-bar {
+	display: grid;
+	grid-template-columns: auto 1fr 1fr 1fr 2fr;
+	grid-column-gap: 20px;
+	padding: 20px;
+	background-color: black;
+}
+
+.logo {
+	color: white;
+	border: thin solid white;
+
+}
+
+.nav-element {
+	text-align: center;
+	white-space: nowrap;
+	height: auto;
+	width: auto;
+	padding: 10px;
+}
+
+@media (max-width: 500px) {
+	.nav-bar {
+		display: grid;
+		grid-template-columns: max-content;
+		grid-row-gap: 30px;
+		width: 150px;
+	}
+
+	.nav-element {
+		text-align: left;
+	}
+
+	.logo {
+		width: fit-content;
+	}
+}

@@ -1,0 +1,25 @@
+.logo {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 35px;
+	padding: 5px;
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+	.logo {
+		display: inline-block;
+		color: white;
+		border-radius: 0;
+		background-color: black;
+	}
+}
+
+@media (min-width: 901px) {
+	.logo {
+		height: 150px;
+		width: 150px;
+		border: thin solid black;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 150px;
+	}
+}
