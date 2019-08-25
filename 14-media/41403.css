@@ -13,9 +13,7 @@ body {
 }
 
 .logo {
-	color: white;
 	border: thin solid white;
-
 }
 
 .nav-element {
@@ -28,7 +26,6 @@ body {
 
 @media (max-width: 500px) {
 	.nav-bar {
-		display: grid;
 		grid-template-columns: max-content;
 		grid-row-gap: 30px;
 		width: 150px;
